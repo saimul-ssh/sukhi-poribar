@@ -3,7 +3,7 @@
 To get started with this project, follow these steps:
 1. Clone this repository to your local machine.
 ```
-git clone https://github.com/SannketNikam/Chatbot.git](https://github.com/saimul-ssh/sukhi-poribar
+git clone (https://github.com/saimul-ssh/sukhi-poribar
 ```
 2. Install the required Python libraries using:
 ```
