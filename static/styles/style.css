@@ -24,6 +24,80 @@
 .sidebar{
   
 }
+.sidebar-fixer{
+  background: #fff;
+  margin: 50px 20px 0px 20px;
+  border-radius: 10px;
+}
+
+.logo {
+  text-align: center;
+  padding: 30px 0 0 0 !important;
+}
+
+.history-area{
+  padding: 20px;
+}
+
+.new-chat-btn {
+	background: #EDF1F5;
+	padding: 5px;
+	width: 100% !important;
+	border: none;
+	border-radius: 5px;
+	color: #000;
+	font-size: 14px;
+}
+.history-section {
+  max-width: 600px;
+  margin: auto;
+  padding-top: 20px;
+}
+.timeline {
+  position: relative;
+  margin: 0;
+  max-height: 500px; /* Maximum height for scrolling */
+  overflow-y: auto;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 20px;
+ /* Increased padding for better alignment */
+}
+.timeline-item h5{
+  font-size: 12px;
+  margin-left: 20px;
+  line-height: 11px;
+}
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #007bff;
+}
+.history-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.history-card p {
+	font-size: 12px;
+	margin: 0;
+	padding: 5px;
+}
+
+.history-card p:hover{
+  background-color: #c3cfe2;
+  transition: .3s ease-in;
+}
+
 
 
 /*
