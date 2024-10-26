@@ -1,6 +1,0 @@
-flask
-flask-mysqldb
-tensorflow 
-keras 
-pickle5
-nltk
